@@ -1,4 +1,5 @@
 Example cURL requests tested:
+
  curl http://localhost:3000/schedules
 
  curl http://localhost:3000/schedules/1
@@ -13,6 +14,7 @@ Example cURL requests tested:
 
 -----------------------
 Task completed. Overlapped schedules do not save through POST. Deleting a schedule will delete all associated appointments, so there will not be any orphaned records.
+-----------------------
 -----------------------
 
 Schedule API
